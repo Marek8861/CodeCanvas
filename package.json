@@ -14,7 +14,7 @@
     "vercel-build": "npm run build",
     "build": "npm run clean && webpack",
     "clean": "rimraf ./build ./dist",
-    "deploy": "echo 'Skipping deploy script on Vercel'"
+    "deploy": "echo 'Skipping deploy script on Vercel'",
     "prepublish": "node scripts/prepublish.mjs",
     "prune": "./prune-gh-pages.sh",
     "i18n:push": "tx-push-src scratch-editor interface translations/en.json",
